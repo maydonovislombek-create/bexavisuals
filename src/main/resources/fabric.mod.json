@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bexavisuals",
+  "version": "${version}",
+  "name": "BexaVisuals",
+  "description": "Client-side visuals: Jump Circle, Target ESP, Block Overlay, Crosshair, Fullbright and more.",
+  "authors": ["Bexa"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.bexa.visuals.BexaVisualsClient"]
+  },
+  "mixins": ["bexavisuals.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
